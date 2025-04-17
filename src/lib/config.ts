@@ -30,7 +30,8 @@ export const config = {
     bio: "javaer -> 全栈开发",
   },
   social: {
-    github: "https://github.com/hexsean"
+    github: "https://github.com/hexsean",
+    buyMeACoffee: "https://www.buymeacoffee.com/hexsean"
   },
   giscus: {
     repo: "hexsean/nextjs-blog-template",
