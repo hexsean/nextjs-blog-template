@@ -14,7 +14,8 @@ export default function Home() {
       <div className="mb-16 space-y-4">
         <h1 className="text-4xl font-bold">{config.site.title}</h1>
         <p className="text-md text-gray-600">{config.author.bio}</p>
-        
+        <p className="text-gray-600">{config.author.bio2}</p>
+
         {/* 社交链接 */}
         <div className="flex space-x-2 text-gray-600">
           <Link href={config.social.buyMeACoffee} className="underline underline-offset-4">赞赏</Link>

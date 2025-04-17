@@ -10,6 +10,7 @@ import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import { SquareTerminal } from "lucide-react";
+import { config } from "@/lib/config";
 
 export function Header() {
   const pathname = usePathname();
@@ -38,15 +39,15 @@ export function Header() {
 
         {/* Right side buttons */}
         <div className="flex items-center space-x-2 md:space-x-8 mr-4">
-          <Link href="https://github.com/guangzhengli" title="Github">
+          <Link href={config.social.github} title="Github">
             <GithubIcon />
           </Link>
-          <Link href="https://x.com/iguangzhengli" title="X">
-            <XIcon />
-          </Link>
-          <Link href="https://www.xiaohongshu.com/user/profile/6076c9a2000000000101e862" title="Xiaohongshu">
-            <XiaohongshuIcon />
-          </Link>
+          {/*<Link href={config.social.x} title="X">*/}
+          {/*  <XIcon />*/}
+          {/*</Link>*/}
+          {/*<Link href={config.social.xiaohongshu} title="Xiaohongshu">*/}
+          {/*  <XiaohongshuIcon />*/}
+          {/*</Link>*/}
         </div>
       </motion.div>
     </header >

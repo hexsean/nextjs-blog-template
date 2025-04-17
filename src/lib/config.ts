@@ -28,6 +28,7 @@ export const config = {
     name: "Hex sean",
     email: "jxfn8zil1y@hexsean.link",
     bio: "javaer -> 全栈开发",
+    bio2: "醉后不知天在水，满船清梦压星河",
   },
   social: {
     github: "https://github.com/hexsean",
