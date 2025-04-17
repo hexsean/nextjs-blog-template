@@ -1,9 +1,9 @@
 export const config = {
   site: {
-    title: "Nextjs Blog Template",
-    name: "Nextjs Blog Template",
-    description: "Nextjs Blog Template",
-    keywords: ["Nextjs Blog Template", "AI", "Full Stack Developer"],
+    title: "H Blog",
+    name: "H Blog",
+    description: "学习中",
+    keywords: ["H Blog", "AI", "Full Stack Developer"],
     url: "https://xxx.com",
     baseUrl: "https://xxx.com",
     image: "https://xxx.com/og-image.png",
@@ -15,7 +15,7 @@ export const config = {
     },
     manifest: "/site.webmanifest",
     rss: {
-      title: "Nextjs Blog Template",
+      title: "H Blog",
       description: "Thoughts on Full-stack development, AI",
       feedLinks: {
         rss2: "/rss.xml",
@@ -25,21 +25,17 @@ export const config = {
     },
   },
   author: {
-    name: "Your Name",
-    email: "your.email@example.com",
-    bio: "这是一个 Nextjs 博客模板",
+    name: "Hex sean",
+    email: "jxfn8zil1y@hexsean.link",
+    bio: "javaer -> 全栈开发",
   },
   social: {
-    github: "https://github.com/xxx",
-    x: "https://x.com/xxx",
-    xiaohongshu: "https://www.xiaohongshu.com/user/profile/xxx",
-    wechat: "https://storage.xxx.com/images/wechat-official-account.png",
-    buyMeACoffee: "https://www.buymeacoffee.com/xxx",
+    github: "https://github.com/hexsean"
   },
   giscus: {
-    repo: "guangzhengli/hugo-ladder-exampleSite",
-    repoId: "R_kgDOHyVOjg",
-    categoryId: "DIC_kwDOHyVOjs4CQsH7",
+    repo: "hexsean/nextjs-blog-template",
+    repoId: "R_kgDOOa-LBw",
+    categoryId: "DIC_kwDOOa-LB84CpLmh",
   },
   navigation: {
     main: [
