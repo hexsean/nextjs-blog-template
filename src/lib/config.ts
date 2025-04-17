@@ -4,9 +4,9 @@ export const config = {
     name: "H Blog",
     description: "学习中",
     keywords: ["H Blog", "AI", "Full Stack Developer"],
-    url: "https://xxx.com",
-    baseUrl: "https://xxx.com",
-    image: "https://xxx.com/og-image.png",
+    url: "https://blog.999180.xyz",
+    baseUrl: "https://blog.999180.xyz",
+    image: "https://avatars.githubusercontent.com/u/49088353?v=4",
     favicon: {
       ico: "/favicon.ico",
       png: "/favicon.png",
@@ -48,7 +48,7 @@ export const config = {
     ],
   },
   seo: {
-    metadataBase: new URL("https://xxx.com"),
+    metadataBase: new URL("https://blog.999180.xyz"),
     alternates: {
       canonical: './',
     },
