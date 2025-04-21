@@ -10,6 +10,7 @@ export const config = {
     favicon: {
       ico: "/favicon.ico",
       png: "/favicon.png",
+      svg: "/favicon.svg",
       appleTouchIcon: "/favicon.png",
     },
     manifest: "/site.webmanifest",
