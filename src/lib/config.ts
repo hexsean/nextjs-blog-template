@@ -6,11 +6,10 @@ export const config = {
     keywords: ["H Blog", "AI", "Full Stack Developer"],
     url: "https://blog.999180.xyz",
     baseUrl: "https://blog.999180.xyz",
-    image: "https://avatars.githubusercontent.com/u/49088353?v=4",
+    image: "/favicon.png",
     favicon: {
       ico: "/favicon.ico",
       png: "/favicon.png",
-      svg: "/favicon.svg",
       appleTouchIcon: "/favicon.png",
     },
     manifest: "/site.webmanifest",
